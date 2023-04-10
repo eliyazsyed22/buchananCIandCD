@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: public.ecr.aws/p5u5p5h0/buchananecr:buchananlatest
+        image: nginx:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
